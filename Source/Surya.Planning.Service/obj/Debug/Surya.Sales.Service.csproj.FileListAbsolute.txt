@@ -1,0 +1,128 @@
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\AutoMapper.Net4.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Service.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Service.pdb
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\AutoMapper.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\EntityFramework.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Newtonsoft.Json.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Owin.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\PagedList.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Core.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Data.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Model.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Remotion.Data.Linq.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\log4net.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Core.pdb
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Data.pdb
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Model.pdb
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\AutoMapper.pdb
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\AutoMapper.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\AutoMapper.Net4.pdb
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\EntityFramework.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\Newtonsoft.Json.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\PagedList.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\bin\Debug\log4net.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\obj\Debug\Surya.Sales.Service.csprojResolveAssemblyReference.cache
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\obj\Debug\Surya.India.Service.Properties.Resources.resources
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\obj\Debug\Surya.Sales.Service.csproj.GenerateResource.Cache
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\obj\Debug\Surya.Planning.Service.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Service\obj\Debug\Surya.Planning.Service.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.Net4.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Service.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Service.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\EntityFramework.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Newtonsoft.Json.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Owin.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\PagedList.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Core.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Data.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Remotion.Data.Linq.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\log4net.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Core.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Data.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.Net4.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\EntityFramework.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\Newtonsoft.Json.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\PagedList.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\bin\Debug\log4net.xml
+D:\MVC Projects\School\Source\Surya.Planning.Service\obj\Debug\Surya.Sales.Service.csprojResolveAssemblyReference.cache
+D:\MVC Projects\School\Source\Surya.Planning.Service\obj\Debug\Surya.India.Service.Properties.Resources.resources
+D:\MVC Projects\School\Source\Surya.Planning.Service\obj\Debug\Surya.Sales.Service.csproj.GenerateResource.Cache
+D:\MVC Projects\School\Source\Surya.Planning.Service\obj\Debug\Surya.Planning.Service.dll
+D:\MVC Projects\School\Source\Surya.Planning.Service\obj\Debug\Surya.Planning.Service.pdb
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.Net4.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Service.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Service.pdb
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\EntityFramework.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Newtonsoft.Json.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Owin.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\PagedList.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Core.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Data.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Remotion.Data.Linq.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\log4net.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Core.pdb
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Surya.Planning.Data.pdb
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.pdb
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\AutoMapper.Net4.pdb
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\EntityFramework.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\Newtonsoft.Json.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\PagedList.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\bin\Debug\log4net.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\obj\Debug\Surya.Sales.Service.csprojResolveAssemblyReference.cache
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\obj\Debug\Surya.India.Service.Properties.Resources.resources
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\obj\Debug\Surya.Sales.Service.csproj.GenerateResource.Cache
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\obj\Debug\Surya.Planning.Service.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Service\obj\Debug\Surya.Planning.Service.pdb

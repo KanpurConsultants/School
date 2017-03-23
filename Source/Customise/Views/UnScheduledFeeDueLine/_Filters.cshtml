@@ -1,0 +1,94 @@
+﻿@model Surya.India.Model.ViewModels.Sch_UnScheduledFeeDueLineFilterViewModel
+    @using Surya.India.Core.Common
+
+    <div class="modal-content">
+        <div class="modal-header" style="border-bottom: 1px solid #8E8888">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> <span class="glyphicon glyphicon-remove"></span></button>
+            <h3>
+                <span style="font-family: Calibri,sans-serif,Verdana;font-weight:bold" class="black"><span class="glyphicon glyphicon-file black"></span> Filters</span>
+            </h3>
+        </div>
+        <div>
+            @using (Html.BeginForm("_FilterPost", "UnScheduledFeeDueLine", FormMethod.Post, new { enctype = "multipart/form-data", id = "modform" }))
+            {
+
+
+                <div class="form-horizontal modal-body">
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(m => m.FeeDueHeaderId)
+                    @Html.HiddenFor(m => m.FeeId)
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ProgramId, "Program", new { @class = "control-label col-xs-4" })
+                                <div class="col-xs-7">
+                                    @Html.TextBoxFor(model => model.ProgramId, new { @class = "form-control col-xs-7 required" })
+                                    @Html.ValidationMessageFor(model => model.ProgramId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ClassId, "Class", new { @class = "control-label col-xs-4 " })
+                                <div class="col-xs-7">
+                                    @Html.TextBoxFor(model => model.ClassId, new { @class = "form-control col-xs-7 required" })
+                                    @Html.ValidationMessageFor(model => model.ClassId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.StreamId, "Stream", new { @class = "control-label col-xs-4" })
+                                <div class="col-xs-7">
+                                    @Html.TextBoxFor(model => model.StreamId, new { @class = "form-control col-xs-7 required" })
+                                    @Html.ValidationMessageFor(model => model.StreamId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ClassSectionId, "Class-Section", new { @class = "control-label col-xs-4" })
+                                <div class="col-xs-7">
+                                    @Html.TextBoxFor(model => model.ClassSectionId, new { @class = "form-control col-xs-7 required" })
+                                    @Html.ValidationMessageFor(model => model.ClassSectionId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Amount, "Amount", new { @class = "control-label col-xs-4" })
+                                <div class="col-xs-7">
+                                    @Html.TextBoxFor(model => model.Amount, new { @class = "form-control col-xs-7 required" })
+                                    @Html.ValidationMessageFor(model => model.Amount, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer " style="padding: 19px 20px 0 20px; border-top:1px solid #8E8888">
+                        <button class="btn custom" name="Command:Edit" type="submit"><h2 style="margin:0px" id="submit" title="Proceed"><span class="glyphicon glyphicon-arrow-right black"></span> </h2></button>
+                    </div>
+
+                </div>
+            }
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+    CustomSelectFunction($("#ProgramId"), '/ComboHelpList/GetProgram', '/ComboHelpList/SetSingleProgram', ' ', false, 0);
+    CustomSelectFunction($("#ClassId"), '/ComboHelpList/GetClass', '/ComboHelpList/SetSingleClass', ' ', false, 0);
+    CustomSelectFunction($("#StreamId"), '/ComboHelpList/GetStream', '/ComboHelpList/SetSingleStream', ' ', false, 0);
+    CustomSelectFunction($("#ClassSectionId"), '/ComboHelpList/GetClassSection', '/ComboHelpList/SetSingleClassSection', ' ', false, 0);
+</script>

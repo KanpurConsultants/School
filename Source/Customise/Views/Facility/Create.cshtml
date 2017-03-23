@@ -1,0 +1,328 @@
+﻿@model Surya.India.Model.Models.Sch_Facility
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- modal placeholder-->
+<div id='myModal' class='modal fade in'>
+    <div class="modal-dialog">
+        <div class=" modal-content">
+        <div id='myModalContent'></div>
+    </div>
+    </div>
+</div>
+
+
+@using (Html.BeginForm("Create", "Facility", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+     @Html.HiddenFor(model => model.FacilityId)
+
+    <div class="panel panel-default">
+
+        <div class="panel-heading">
+
+            <h3>
+                <span style="font-family: Calibri,sans-serif,Verdana;font-weight:bold" class="black"><span class="glyphicon glyphicon-file black"></span> Facility</span>
+                <input type="submit" value="Save" class="btn btn-primary right" id="submit" style="width: 90px; background-color: #2980b9" />
+            </h3>
+            <hr style="margin-top:0px;margin-bottom:0px" />
+
+            <div class="panel-info">
+                <h4 style="padding:5px 0 0 0;margin:0px">
+                    @Html.ActionLink(" ", " ", " ", null, new { @class = "glyphicon glyphicon-refresh toolbar", @title = "Refresh Page", @data_toggle = "tooltip", @id = "RefreshPage" })
+                    @Html.ActionLink(" ", "Create", "Facility", null, new { @class = "glyphicon glyphicon-plus toolbar", @title = "Add New", @data_toggle = "tooltip" })
+                    @Html.ActionLink(" ", "History", "Facility", null, new { @class = "glyphicon glyphicon-user toolbar", @title = "History", @data_toggle = "tooltip" })
+                    @Html.ActionLink(" ", "PrevPage", "Facility", new { id = @Model.FacilityId }, new { @class = "glyphicon glyphicon-arrow-left toolbar", @title = "Prev Record", @data_toggle = "tooltip" })
+                    @Html.ActionLink(" ", "NextPage", "Facility", new { id = @Model.FacilityId }, new { @class = "glyphicon glyphicon-arrow-right toolbar", @title = "Next Record", @data_toggle = "tooltip" })
+                    @Html.ActionLink(" ", "Index", "Facility", null, new { @class = "glyphicon glyphicon-list toolbar right", @title = "List", @data_toggle = "tooltip" })                    
+                </h4>
+            </div>
+
+        </div>
+        <div class="panel-info" style="padding-left:15px">
+
+            <div class="form-horizontal">
+                
+                @Html.ValidationSummary(true)
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" style="margin-top:15px">
+                            @Html.LabelFor(model => model.FacilityName, "Name", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-6">
+                                @Html.TextBoxFor(m => m.FacilityName, null, new { @class = "form-control col-xs-6 required" })
+                                @Html.ValidationMessageFor(m => m.FacilityName, null, new { @class = "has-error" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group" style="margin-top:15px">
+                            @Html.LabelFor(model => model.FacilitySubCategoryTitle, "Facility Sub Category Title", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-6">
+                                @Html.TextBoxFor(m => m.FacilitySubCategoryTitle, null, new { @class = "form-control col-xs-6 required" })
+                                @Html.ValidationMessageFor(m => m.FacilitySubCategoryTitle, null, new { @class = "has-error" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.LedgerAccountId, "Ledger Account", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-6">
+                                @Html.TextBoxFor(m => m.LedgerAccountId, null, new { @class = "form-control col-xs-6 required" })
+                                @Html.ValidationMessageFor(m => m.LedgerAccountId, null, new { @class = "has-error" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Recurrence, "Recurrence", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-6">
+                                @Html.TextBoxFor(m => m.Recurrence, null, new { @class = "form-control col-xs-6 required" })
+                                @Html.ValidationMessageFor(m => m.Recurrence, null, new { @class = "has-error" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.RenewOnPromotion, "Renew On Promotion", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-6" style=" padding-top:4px">
+                                @Html.CheckBoxFor(m => m.RenewOnPromotion, new { @class = "checkbox col-xs-1" })
+                                @Html.ValidationMessageFor(model => model.RenewOnPromotion)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.IsActive, "Is Active", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-6" style=" padding-top:4px">
+                                @Html.CheckBoxFor(m => m.IsActive, new { @class = "checkbox col-xs-1" })
+                                @Html.ValidationMessageFor(model => model.IsActive)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <hr />
+                    <div class="row">
+                        <h4 class="col-md-12 black" style="margin-top:15px">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            1.Facility Sub Category
+                        </h4>
+                    </div>
+
+                    <div class="panel-info">
+                        <h5 style="padding:5px 0 3px 0;margin:0px;font-weight:bold">
+                            <span class="glyphicon glyphicon-plus-sign"></span>
+                            @Html.ActionLink("Add New Row ", "_Create", "FacilitySubCategory", new { id = @Model.FacilityId }, new { data_modal = "", id = "btnCreate", @class = "toolbar", @title = "Add New", @data_toggle = "tooltip" })
+                        </h5>
+                    </div>
+
+                    <div style="padding-right:15px">
+                        <table class="table table-hover ctable">
+                            <thead id="ContentHeader">
+                            </thead>
+
+                            <tbody id="ContentLine"></tbody>
+                        </table>
+                    </div>
+                </div>
+        </div>
+    </div>
+}
+
+
+<script>
+    $(document).ready(function () {
+        CustomSelectFunction($("#LedgerAccountId"), '/ComboHelpList/GetAccount', '/ComboHelpList/SetSingleAccount', '', false, 0);
+        CustomSelectFunction($("#Recurrence"), '/ComboHelpList/GetMonths', '/ComboHelpList/SetMonths', '', true, 0);
+    });
+</script>
+
+<script type="text/javascript">
+
+     $(":submit").on("click", function () {
+         var mpoid=@Model.FacilityId;
+         var tes;
+         if(mpoid<=0)
+         {
+             tes= $('#FacilityName').DuplicateCheckForCreate({ name: 'Facility', value: $('#FacilityName').val(), doctype: 0 });
+         }
+         else
+         {
+             tes = $('#FacilityName').DuplicateCheckForEdit({ name: 'Facility', value: $('#FacilityName').val(), doctype: 0,headerId:mpoid });
+         }
+         if (tes) {
+             return false;
+         }
+         else
+         {
+             return;
+         }
+     });
+
+</script>
+
+
+
+<script type="text/javascript">
+    var form_clean;
+    $(document).ready(function () {
+
+        var FacilityId = @Model.FacilityId;
+
+        //Calling the function to load the table data/ Line information
+        LoadContents();
+
+    });
+
+
+    var id=@Model.FacilityId;
+    if(id==null||id==0)
+    {
+        $(document).find('a#btnCreate').removeAttr('href').removeAttr('data-modal');
+    }
+
+
+
+
+    //Reloading the table contents on modal hide
+    $('#myModal').on('hidden.bs.modal', function () {
+        LoadContents();
+        
+    });
+
+
+    //To focus on the first element on modal load
+    $('#myModal').on('shown.bs.modal', function () {
+        $("#FacilityId").focus()
+    });
+
+
+
+
+    //Loading the Table data or Line Information
+    function LoadContents() {
+        var FacilityId=@Model.FacilityId;
+        var link="/FacilitySubCategory/Index/"+FacilityId;
+        $.ajax({
+            url: link,
+            type: "GET",
+            success: function (data) {
+                var row = ""
+                var srno=1;
+                var head="<tr style='background-color:#428bca'>  <th style='width:10px'><input type='hidden'  /></th> <th style='width:10px'>Serial</th><th class='center' style='width:50px'>Sub Category Heads</th>   <th style='width:10px'></th>       <th style='width:10px'></th>  </tr>"
+                if(data.length!=0)
+                {
+                    $.each(data, function (index, item) {
+                        row += "<tr><td><input type='hidden' class='id' value='" + item.FacilitySubCategoryId + "'/></td> <td>"+ srno +"</td> <td>"+(item.FacilitySubCategoryName==null?" ":""+item.FacilitySubCategoryName+"")+"</td>        <td><a class='hidden' Modify href='/FacilitySubCategory/_Edit/"+item.FacilitySubCategoryId+"' ></a></td>       <td><a class='glyphicon glyphicon-trash' data-modal='' delete='' href='/FacilitySubCategory/_Edit/"+item.FacilitySubCategoryId+"' ></a></td>  </tr>";
+                        srno++;
+                    });
+                }
+                else
+                {
+                    row+="<tr><td>No Items Found.</td></tr>";
+                }
+                $("#ContentHeader").html(head);
+                $("#ContentLine").html(row);
+            },
+            error: function (result) {
+                alert("Error");
+            }
+        });
+    }
+
+
+
+    
+
+
+
+    //For Populating Modal PopUp on DoubleClick Of Row
+    $('#ContentLine').on("dblclick",'tr',function(){
+        var text = $(this).find(".id").val();
+        var editurl=$(this).find('a[Modify]').attr('href');
+
+
+        $('#myModalContent').load(editurl, function () {
+            //alert('2');
+            $('#myModal').modal({
+                backdrop: 'static',
+                keyboard: true
+            }, 'show');
+
+            bindForm1(this);
+        });
+    });
+
+
+
+
+  
+
+
+
+    //For Handling Modal PopUp on Clicking Delete Icon
+    $('#ContentLine').on("click",'a[delete]', function (e) {
+        $('#myModalContent').load(this.href, function () {
+            //alert('2');
+            $('#myModal').modal({
+                backdrop: 'static',
+                keyboard: true
+            }, 'show');
+
+            bindForm1(this);
+        });
+        return false;
+    });
+
+
+
+    //For posting the data through ajax and render the contents sent back from the server
+    function bindForm1(dialog) {
+        //alert("binding");
+        $('form', dialog).submit(function () {
+            //alert(this.action);
+            $.ajax({
+                url: this.action,
+                type: this.method,
+                data: $(this).serialize(),
+                success: function (result) {
+                    if (result.success) {
+                        $('#myModal').modal('hide');
+                        //Refresh
+                        //location.reload();
+                        //alert('Data Saved');
+                    }else if(!result.success)
+                    {
+                        $('#myModalContent').html(result);
+                        bindForm1();
+                    }
+                    else {
+                        $('#myModalContent').html(result);
+                        bindForm1();
+                    }
+                }
+            });
+            return false;
+        });
+
+    }
+</script>
+

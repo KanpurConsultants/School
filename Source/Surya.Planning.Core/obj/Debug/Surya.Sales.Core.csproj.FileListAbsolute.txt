@@ -1,0 +1,60 @@
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\Surya.Planning.Core.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\Surya.Planning.Core.pdb
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\log4net.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\Remotion.Data.Linq.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\Remotion.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\Remotion.Interfaces.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.Mvc.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.Razor.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Razor.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\log4net.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.Mvc.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.Razor.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Razor.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\obj\Debug\Surya.Sales.Core.csprojResolveAssemblyReference.cache
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\obj\Debug\Surya.Planning.Core.dll
+D:\SuryaIndia\SuppliorModule_V1\Source\Surya.Planning.Core\obj\Debug\Surya.Planning.Core.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\Surya.Planning.Core.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\Surya.Planning.Core.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\log4net.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\Remotion.Data.Linq.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\Remotion.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\Remotion.Interfaces.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.Mvc.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.Razor.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Razor.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\log4net.xml
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.Mvc.xml
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.Razor.xml
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Razor.xml
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.xml
+D:\MVC Projects\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\MVC Projects\School\Source\Surya.Planning.Core\obj\Debug\Surya.Planning.Core.dll
+D:\MVC Projects\School\Source\Surya.Planning.Core\obj\Debug\Surya.Planning.Core.pdb
+D:\MVC Projects\School\Source\Surya.Planning.Core\obj\Debug\Surya.Sales.Core.csprojResolveAssemblyReference.cache
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\Surya.Planning.Core.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\Surya.Planning.Core.pdb
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\log4net.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\Remotion.Data.Linq.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\Remotion.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\Remotion.Interfaces.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.Mvc.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.Razor.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\log4net.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.Mvc.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.Razor.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\obj\Debug\Surya.Planning.Core.dll
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\obj\Debug\Surya.Planning.Core.pdb
+D:\Akash\AgTest\School\Source\Surya.Planning.Core\obj\Debug\Surya.Sales.Core.csprojResolveAssemblyReference.cache

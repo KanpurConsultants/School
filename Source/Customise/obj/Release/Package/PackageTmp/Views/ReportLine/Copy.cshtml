@@ -1,0 +1,51 @@
+﻿@model Surya.India.Presentation.ViewModels.ReportCopyViewModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="panel panel-default">
+
+        <div class="panel-heading">
+
+            <h4>
+                <span style="font-family: Calibri,sans-serif,Verdana"> Copy Report.</span>
+            </h4>
+
+        </div>
+        <div class="panel-info" style="padding-left:15px">
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m=>m.ReportHeaderId)
+                <div class="form-horizontal">
+                    
+                    @Html.ValidationSummary(true)
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group" style="margin-top:15px">
+                                @Html.LabelFor(model => model.CopyHeaderId, "Copy From*", new { @class = "control-label col-xs-4" })
+                                <div class="col-xs-6">
+                                    @Html.DropDownListFor(m => m.CopyHeaderId, new SelectList(ViewBag.ReporList as System.Collections.IEnumerable, "ReportHeaderId", "ReportName"), new { @class = "form-control col-xs-6 required height" })
+                                    @Html.ValidationMessageFor(m => m.CopyHeaderId, null, new { @class = "has-error" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Copy" class="btn btn-primary btn-sm CurveBorder height" style=" border-color: #606264" />
+                            <span style="font-family: Calibri,sans-serif,Verdana;font-size:large">
+                                @Html.ActionLink("Back to List", "Index", new { id=Model.ReportHeaderId}, new { @class = "btn btn-primary btn-sm col-md-offset-1 CurveBorder ActionLinkPadding CustomCss height" })
+                            </span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+}
+

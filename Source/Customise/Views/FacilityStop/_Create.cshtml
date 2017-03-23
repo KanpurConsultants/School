@@ -1,0 +1,237 @@
+﻿@model Surya.India.Model.ViewModel.Sch_FacilityStopViewModel
+@using Surya.India.Core.Common
+
+<div class="modal-content">
+    <div class="modal-header" style="border-bottom: 1px solid #8E8888">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> <span class="glyphicon glyphicon-remove"></span></button>
+        <h3>
+            <span style="font-family: Calibri,sans-serif,Verdana;font-weight:bold" class="black"><span class="glyphicon glyphicon-file black"></span> Facility Stop </span>
+        </h3>
+    </div>
+    <div>
+        @using (Html.BeginForm("_CreatePost", "FacilityStop", FormMethod.Post, new { enctype = "multipart/form-data", id = "modform" }))
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.HiddenFor(model => model.FacilityStopHeaderId)
+            @Html.HiddenFor(model => model.FacilityStopId)
+            @Html.HiddenFor(model => model.AdmissionId)
+            @Html.HiddenFor(model => model.StopDate)
+
+            <div class="form-horizontal modal-body">
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <br />
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.FacilityEnrollmentId, "Facility", new { @class = "control-label col-xs-4 " })
+                            <div class="col-xs-7">
+                                @Html.TextBoxFor(model => model.FacilityEnrollmentId, new { @class = "form-control col-xs-7 required" })
+                                @Html.ValidationMessageFor(model => model.FacilityEnrollmentId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.StartDate, "Start Date", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-7">
+                                @Html.TextBoxFor(m => m.StartDate, "{0:dd/MMMM/yyyy}", new { @class = "datepicker form-control col-xs-6 ", @readonly = "readonly" })
+                                @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.AvailDays, "Avail Days", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-7">
+                                @Html.TextBoxFor(model => model.AvailDays, new { @class = "form-control col-xs-7 required", @readonly = "readonly" })
+                                @Html.ValidationMessageFor(model => model.AvailDays, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.StopReason, "Stop Reason", new { @class = "control-label col-xs-4" })
+                            <div class="col-xs-6">
+                                @Html.TextBoxFor(model => model.StopReason, new { @class = "form-control col-xs-7 required" })
+                                @Html.ValidationMessageFor(model => model.StopReason, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+
+
+                <div class="modal-footer " style="padding: 19px 20px 0 20px; border-top:1px solid #8E8888">
+                    <button class="btn custom left" name="Command:Edit" type="submit"><h2 style="margin:0px" id="submit"><span class="glyphicon glyphicon-floppy-disk black"></span> </h2></button>
+                    <button class="btn custom" name="Command:Delete" id="delete" type="submit"><h2 style="margin:0px"><span class="glyphicon glyphicon-trash black"></span> </h2></button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        CustomSelectFunction($("#FacilityEnrollmentId"), '/ComboHelpList/GetFacilityEnrollment', '/ComboHelpList/SetSingleFacilityEnrollment', ' ', false, 0);
+    });
+</script>
+
+
+
+<script type="text/javascript">
+
+    
+
+    $(document).ready(function () {
+        $("#FacilityEnrollmentId").focus();
+        GetFacilityEnrollmentList($("#FacilityEnrollmentId"), '/FacilityStop/GetFacilityEnrollment', '/ComboHelpList/SetSingleFacilityEnrollment', ' ', false, 0);
+    });
+
+    $(function () {
+        $("#FacilityEnrollmentId").change(Validate_FacilityEnrollmentId);
+    });
+
+
+    $('.datepicker').datepicker({
+        format: 'dd/MM/yyyy',
+        "setDate": new Date(),
+        "autoclose": true
+
+    })
+
+    var IsSaved=false;
+    var ValidationCount=0;
+
+
+    //$('#modform').bind('submit',function(event){
+    //    if(!IsSaved)
+    //    {
+            
+    //        if(!ValidateData())
+    //        {
+                
+    //            return false;
+    //        }
+    //        IsSaved=true;
+    //        $('button:submit').attr('disabled','disabled');
+    //        return IsSaved;
+    //    }
+    //    else
+    //    {
+    //        return false;
+    //    }
+    //});
+
+
+    var id=@Model.FacilityStopId;
+    $('#delete','.modal-content').click(function (e) {
+        if(id>0)
+        {
+            var url = '/FacilityStop/DeletePost';
+            $('form#modform').attr('action',url);
+            return;
+        }
+        else
+        {
+
+            return false;
+        }
+    });
+
+    function GetFacilityEnrollmentList(Id, GetAction, SetAction, placehold, multiple, length) {
+        var geturl = GetAction;
+        //The url we will send our get request to
+        var attendeeUrl = GetAction;
+        var pageSize = 20;
+        var AdmissionId = $("#AdmissionId").val();
+
+        Id.select2(
+        {
+
+            placeholder: placehold,
+            //Does the user have to enter any data before sending the ajax request
+            minimumInputLength: length,
+            allowClear: true,
+            multiple: multiple,
+            ajax: {
+                //How long the user has to pause their typing before sending the next request
+                quietMillis: 150,
+                //The url of the json service
+                url: attendeeUrl,
+                dataType: 'jsonp',
+                //Our search term and what page we are on
+                data: function (term, page) {
+                    return {
+                        pageSize: pageSize,
+                        pageNum: page,
+                        searchTerm: term,
+                        AdmissionId: AdmissionId
+                    };
+                },
+                results: function (data, page) {
+                    //Used to determine whether or not there are more results available,
+                    //and if requests for more data should be sent in the infinite scrolling
+                    var more = (page * pageSize) < data.Total;
+                    return { results: data.Results, more: more };
+                }
+            },
+            initSelection: function (element, callback) {
+
+                var xval = element.val();
+                if (xval != 0) {
+                    $.ajax({
+                        cache: false,
+                        type: "POST",
+                        url: SetAction,
+                        data: { Ids: element.val() },
+                        success: function (data) {
+                            callback(data);
+                        },
+                        error: function (xhr, ajaxOptions, thrownError) {
+                            alert('Failed to Retrive Qty' + thrownError);
+                        }
+                    })
+                }
+                //callback([{ id: "1", text: "arpit" }, { id: "2", text: "akash" }]);
+            }
+        });
+    }
+
+    function Validate_FacilityEnrollmentId() {
+        //alert ($("#ProductUidName").val());
+        var ProcessProgress = $("#Student detail loading progress");
+        ProcessProgress.show();
+        if ($("#FacilityEnrollmentId").val() != "") {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "@(Url.Action("GetFacilityEnrollmentDetailJson"))",
+                data: { FacilityEnrollmentId : $("#FacilityEnrollmentId").val(), StopDate : $("#StopDate").val() },
+                success: function (data) {
+                    if (Object.keys(data).length != 0) {
+                        //$("#StartDate").val(data[0].StartDate);
+                        $("#StartDate").val(formatDate('dd/m/Y',new Date(parseInt(data[0].StartDate.substr(6)))));
+                        //$("#StartDate").val(data[0].StartDate.tostring().format('d-M-Y'));
+                        $("#AvailDays").val(data[0].AvailDays);
+                        
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve product Uid details.' + thrownError);
+                    ProcessProgress.hide();
+                }
+            });
+        }
+    }
+
+</script>

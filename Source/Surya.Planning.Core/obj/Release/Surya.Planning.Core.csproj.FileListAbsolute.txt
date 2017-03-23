@@ -1,0 +1,10 @@
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Release\Surya.Planning.Core.dll
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Release\Surya.Planning.Core.pdb
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Release\log4net.dll
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Release\Remotion.Data.Linq.dll
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Release\Remotion.dll
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Release\Remotion.Interfaces.dll
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\bin\Release\log4net.xml
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\obj\Release\Surya.Planning.Core.dll
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\obj\Release\Surya.Planning.Core.pdb
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Source\Surya.Planning.Core\obj\Release\Surya.Planning.Core.csprojResolveAssemblyReference.cache

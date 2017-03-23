@@ -1,0 +1,15 @@
+C:\Users\intel\Downloads\jTable-ASPNET-Samples\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\bin\Debug\jTableSampleDatabaseLayer.dll
+C:\Users\intel\Downloads\jTable-ASPNET-Samples\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\bin\Debug\jTableSampleDatabaseLayer.pdb
+C:\Users\intel\Downloads\jTable-ASPNET-Samples\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.csprojResolveAssemblyReference.cache
+C:\Users\intel\Downloads\jTable-ASPNET-Samples\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.dll
+C:\Users\intel\Downloads\jTable-ASPNET-Samples\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.pdb
+C:\Users\intel\Documents\Visual Studio 2013\Projects\JTable\jTableSampleDatabaseLayer\bin\Debug\jTableSampleDatabaseLayer.dll
+C:\Users\intel\Documents\Visual Studio 2013\Projects\JTable\jTableSampleDatabaseLayer\bin\Debug\jTableSampleDatabaseLayer.pdb
+C:\Users\intel\Documents\Visual Studio 2013\Projects\JTable\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.csprojResolveAssemblyReference.cache
+C:\Users\intel\Documents\Visual Studio 2013\Projects\JTable\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.dll
+C:\Users\intel\Documents\Visual Studio 2013\Projects\JTable\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.pdb
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Tools\JTable\jTableSampleDatabaseLayer\bin\Debug\jTableSampleDatabaseLayer.dll
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Tools\JTable\jTableSampleDatabaseLayer\bin\Debug\jTableSampleDatabaseLayer.pdb
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Tools\JTable\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.csprojResolveAssemblyReference.cache
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Tools\JTable\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.dll
+D:\Working Copy\SuryaProjects\branches\SuppliorModule_V1\Tools\JTable\jTableSampleDatabaseLayer\obj\Debug\jTableSampleDatabaseLayer.pdb
